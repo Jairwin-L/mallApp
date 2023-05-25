@@ -1,4 +1,8 @@
 module.exports = {
-  root: true,
-  extends: '@react-native-community',
+  extends: [
+    'eslint-config-ali/typescript/react',
+    'prettier',
+    'prettier/@typescript-eslint',
+    'prettier/react',
+  ],
 };
